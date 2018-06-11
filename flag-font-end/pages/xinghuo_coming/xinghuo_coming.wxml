@@ -1,4 +1,4 @@
-<view calss='container'>
+<view calss='container1'>
 <form bindsubmit='formSubmit'>
     <view class='section'>
         <view class='msg'>申请人信息</view>
@@ -69,63 +69,63 @@
             <text class="person">成员1</text>
                 <view class="person-other">
                     <text class= 'txt1'> 姓名 </text>
-                    <input class='input input_name' type='text' name= 'name1' placeholder='请输入姓名' required></input>
+                    <input class='inputs' type='text' name= 'name1' placeholder='请输入姓名' required></input>
                 </view>
                 <view class="person-other">
                 <text class= 'txt1'> 职务 </text>
-                <input class='input input_profession' type='text' name= 'position1' placeholder='请输入职务' required></input>
+                <input class='inputs' type='text' name= 'position1' placeholder='请输入职务' required></input>
                 </view>
             <view class="person-other">
-                <text class= 'txt1'> 联系方式 </text> <input class='input' type='number' name= 'phone1' placeholder='请输入联系方式' required></input>
+                <text class= 'txt1'> 联系方式 </text> <input class='inputs' type='number' name= 'phone1' placeholder='请输入联系方式' required></input>
             </view>
             <view class="person-other">
-                <text class= 'txt1'> 工作内容 </text> <input class='input input_content' type='text' name= 'job1' placeholder='15字以内' max="15" required></input>
+                <text class= 'txt1'> 工作内容 </text> <input class='input_content ' type='text' name= 'job1' placeholder='15字以内' max="15" required></input>
             </view>
 
         </view>
         <view class='content content-person'>
             <text class="person">成员2</text>
             <view class="person-other">
-                <text class= 'txt1'> 姓名 </text><input class='input input_name' type='text' name= 'name2' placeholder='请输入姓名' required></input>
+                <text class= 'txt1'> 姓名 </text><input class='inputs' type='text' name= 'name2' placeholder='请输入姓名' required></input>
             </view>
             <view class="person-other">
-                <text class= 'txt1'> 职务 </text> <input class='input input_profession' type='text' name= 'position2' placeholder='请输入职务' required></input>
+                <text class= 'txt1'> 职务 </text> <input class='inputs' type='text' name= 'position2' placeholder='请输入职务' required></input>
             </view>
             <view class="person-other">
-                <text class= 'txt1'> 联系方式 </text> <input class='input' type='number' name= 'phone2' placeholder='请输入联系方式' required></input>
+                <text class= 'txt1'> 联系方式 </text> <input class='inputs' type='number' name= 'phone2' placeholder='请输入联系方式' required></input>
             </view>
             <view class="person-other">
-                <text class= 'txt1'> 工作内容 </text> <input class='input input_content' type='text' name= 'job2' placeholder='15字以内' max="15" required></input>
+                <text class= 'txt1'> 工作内容 </text> <input class='input_content' type='text' name= 'job2' placeholder='15字以内' max="15" required></input>
             </view>
         </view>
         <view class='content content-person'>
             <text class="person">成员3</text>
             <view class="person-other">
-                <text class= 'txt1'> 姓名 </text><input class='input input_name' type='text' name= 'name3' placeholder='请输入姓名' required></input>
+                <text class= 'txt1'> 姓名 </text><input class='inputs' type='text' name= 'name3' placeholder='请输入姓名' required></input>
             </view>
             <view class="person-other">
-                <text class= 'txt1'> 职务 </text> <input class='input input_profession' type='text' name= 'position3' placeholder='请输入职务' required></input>
+                <text class= 'txt1'> 职务 </text> <input class='inputs' type='text' name= 'position3' placeholder='请输入职务' required></input>
             </view>
             <view class="person-other">
-                <text class= 'txt1'> 联系方式 </text> <input class='input' type='number' name= 'phone3' placeholder='请输入联系方式' required></input>
+                <text class= 'txt1'> 联系方式 </text> <input class='inputs' type='number' name= 'phone3' placeholder='请输入联系方式' required></input>
             </view>
             <view class="person-other">
-                <text class= 'txt1'> 工作内容 </text> <input class='input input_content' type='text' name= 'job3' placeholder='15字以内' maxlength="15" required></input>
+                <text class= 'txt1'> 工作内容 </text> <input class=' input_content' type='text' name= 'job3' placeholder='15字以内' maxlength="15" required></input>
             </view>
             </view>
         <view class='content content-person'>
             <text class="person">成员4</text>
             <view class="person-other">
-                <text class= 'txt1'> 姓名 </text><input class='input input_name' type='text' name= 'name4' placeholder='请输入姓名' required></input>
+                <text class= 'txt1'> 姓名 </text><input class='inputs' type='text' name= 'name4' placeholder='请输入姓名' required></input>
             </view>
             <view class="person-other">
-                <text class= 'txt1'> 职务 </text> <input class='input input_profession' type='text' name= 'position4' placeholder='请输入职务' required></input>
+                <text class= 'txt1'> 职务 </text> <input class='inputs' type='text' name= 'position4' placeholder='请输入职务' required></input>
             </view>
             <view class="person-other">
-                <text class= 'txt1'> 联系方式 </text> <input class='input' type='number' name= 'phone4' placeholder='请输入联系方式' required></input>
+                <text class= 'txt1'> 联系方式 </text> <input class='inputs' type='number' name= 'phone4' placeholder='请输入联系方式' required></input>
             </view>
             <view class="person-other">
-                <text class= 'txt1'> 工作内容 </text> <input class='input input_content' type='text' name= 'job4' placeholder='15字以内' maxlength="15" required></input>
+                <text class= 'txt1'> 工作内容 </text> <input class=' input_content' type='text' name= 'job4' placeholder='15字以内' maxlength="15" required></input>
             </view>
         </view>
     </view>

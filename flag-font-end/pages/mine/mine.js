@@ -82,6 +82,10 @@ Page({
             userInfo: e.detail.userInfo,
             hasUserInfo: true
         })
+    },
+  onLoad: function () {
+        wx.showShareMenu({
+            withShareTicket: true
+        })
     }
-
 });

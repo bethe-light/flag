@@ -24,25 +24,7 @@ Page({
         success: function(res){
         if( res.statusCode == 200 ) {
 
-            // var objData =  res.data.data;
-            var objData = [{
-                "feedback": null,
-                "activityName": "啦啦",
-                "endTime": "2017-09-01T09:45:00.000+0000",
-                "startTime": "2017-09-01T09:43:00.000+0000",
-                "state": 2
-            }, {
-                "feedback": null,
-                "activityName": "啦啦",
-                "endTime": "2017-09-01T09:45:00.000+0000",
-                "startTime": "2017-09-01T09:43:00.000+0000",
-                "state": 1
-                }, {
-                    "feedback": null,
-                    "activityName": "啦啦",
-                    "endTime": "2017-09-01T09:45:00.000+0000",
-                    "startTime": "2017-09-01T09:43:00.000+0000",
-                    "state": 5}];
+            var objData =  res.data.data;
             var obj = [];
             for(let i = 0; i< objData.length;  i++ ){
                 let dateTime = objData[i].startTime.substring(0, 10) ;
@@ -58,14 +40,17 @@ Page({
             else  {
                 obj[i] = '同学，你好 ! \n 在' + Time + ' \n 你申请的活动：' + activityName + '  正在审核中！'
             }   
-            }
-            
+            } 
             that.setData({
                 messages: obj
             });
-
         }
         }
       });
+  },
+  onLoad: function () {
+      wx.showShareMenu({
+          withShareTicket: true
+      })
   }
 })

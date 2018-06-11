@@ -4,14 +4,14 @@
 }
 .msg {
     margin-top: 10rpx;
-    position: relative;
-    left: 2px;
+    /* position: relative; */
+    /* left: 2px; */
     font-size: 20px;
 }
 .content {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    /* justify-content: space-between; */
     margin: 5px;
 }
 .content1 {
@@ -24,39 +24,49 @@
 }
 .txt1 {
     font-size: 18px;
-    writing-mode: horizontal-tb;
+    margin-bottom: 20rpx; 
 }
 .input {
     opacity: 0.6;
-    position: relative;
-    right: 2px;
+    position: absolute;
+    left: 50%;
     font-size: 16px;
+}
+.inputs {
+    opacity: 0.6;
+    position: absolute;
+    left: 50%;
+    font-size: 16px;
+     margin-bottom: 20rpx;
 }
 .input_qq {
     opacity: 0.6;
-    position: relative;
-    right: 10px;
+    position: absolute;
+    left: 50%;
     font-size: 16px;
+
 }
 .input_adress, .input_weixin {
     opacity: 0.6;
-    position: relative;
-    right: 10px;
+    position: absolute;
+    left: 50%;
     font-size: 16px;
   }
 .txt1 {
     font-size: 16px;
     writing-mode: horizontal-tb;
 }
-.input_name, .input_profession{
+/* .input_name, .input_profession{
     width: 300rpx;
-}
+} */
 
 .input_content {
     width: 500rpx;
     height: 100rpx;
     background-color: rgba(78,78,78,0.1);
     border-radius: 6px;
+    margin-top:10rpx;
+    margin-bottom: 10rpx;
 }
 .txt_area {
     background-color: rgba(78,78,78,0.1);
@@ -81,12 +91,14 @@
     font-size: 16px;
 }
 .content-person {
-    display: flex;
-    flex-direction: column;
+     display: flex;
+    flex-direction: column; 
+    height: 300rpx;
 }
 .person {
     font-size: 16px;
     margin: 6px;
+    margin-top:10rpx;
 }
 .person1 {
     display: flex;

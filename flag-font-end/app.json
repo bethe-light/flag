@@ -2,15 +2,11 @@
   "pages":[
     "pages/background/background",
     "pages/identity/identity",
-    "pages/xinghuo_coming/xinghuo_coming",
-    "pages/index/index",
+     "pages/xinghuo_coming/xinghuo_coming",
     "pages/mine/mine",
-
-"pages/xinghuo_book/xinghuo_book",
+    "pages/xinghuo_book/xinghuo_book",
     "pages/xinghuo_space/xinghuo_space",
     "pages/xinghuo_comed/xinghuo_comed",
-
-    "pages/book_room/book_room",
     "pages/xinghuo/xinghuo"
   ],
 

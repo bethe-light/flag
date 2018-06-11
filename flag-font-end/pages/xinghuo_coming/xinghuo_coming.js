@@ -23,16 +23,16 @@ Page({
        this.setData({
          field: e.detail.value
        });
-      console.log(e.detail.value)
+    //   console.log(e.detail.value)
     },
     radioChange_opreations: function(e){
-      console.log(e.detail.value)
+    //   console.log(e.detail.value)
        this.setData({
          operations: e.detail.value
        })
     },
     formSubmit: function(e){
-        // console.log(e.detail.value);
+        console.log(e.detail.value);
         wx.request({
           url : app.globalData.globalUrl + '/space/apply',
           header: {
@@ -75,7 +75,7 @@ Page({
           },
           method : 'POST',
           success : function(res){
-            console.log(res.data);
+            // console.log(res.data);
             if(res.statusCode == 200){
               wx.showModal({
                 title: '温馨提示',
@@ -89,6 +89,11 @@ Page({
               });
             }
           }
+        })
+    },
+    onLoad: function () {
+        wx.showShareMenu({
+            withShareTicket: true
         })
     }
 })

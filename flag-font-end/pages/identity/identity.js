@@ -107,6 +107,10 @@ Page({
     wx.switchTab({
         url: '../mine/mine'
     })
+  },
+  onLoad: function () {
+      wx.showShareMenu({
+          withShareTicket: true
+      })
   }
-
 })
