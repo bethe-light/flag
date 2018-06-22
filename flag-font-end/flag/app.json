@@ -1,0 +1,47 @@
+{
+  "pages":[
+    "pages/background/background",
+    "pages/identity/identity",
+     "pages/xinghuo_coming/xinghuo_coming",
+    "pages/mine/mine",
+    "pages/xinghuo_book/xinghuo_book",
+    "pages/xinghuo_space/xinghuo_space",
+    "pages/xinghuo_comed/xinghuo_comed",
+    "pages/xinghuo/xinghuo"
+  ],
+
+  "tabBar":{
+    "color": "#808080",
+    "selectedColor": "#000000",
+    "backgroundColor": "#ffffff",
+    "borderStyle": "#d4cbcb",
+    "position": "bottom",
+    "list": [
+      {
+        "pagePath": "pages/xinghuo/xinghuo",
+        "text": "星火",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home-selected.png"
+      },
+      {
+        "pagePath": "pages/mine/mine",
+        "text": "我的",
+        "iconPath": "images/person.png",
+        "selectedIconPath": "images/person-selected.png"
+      }
+    ]
+  },
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTextStyle":"black",
+    "enablePullDownRefresh":true
+  },
+  "networkTimeout":{
+    "request": 30000,
+    "contentSocket": 30000,
+    "uploadFile": 60000,
+    "downloadFile": 60000
+  },
+  "debug": true
+}
